@@ -2,12 +2,12 @@ public class ManagerFilms {
     private String[] films = new String[0];
     private int limit;
 
-    public ManagerFilms() {
+    public void ManagerFilms() {
         this.limit = 10;
 
     }
 
-    public ManagerFilms(int limit) {
+    public void ManagerFilms(int limit) {
         this.limit = limit;
 
     }
@@ -22,11 +22,11 @@ public class ManagerFilms {
         tmp[tmp.length - 1] = film;
 
     }
-    public String[] findAll() {
+    public  String[] findAll() {
         return films;
     }
 
-    public String[] findLast() {
+    public  String[] findLast() {
         int resultLenght;
         if (films.length < limit) {
             resultLenght = films.length;
