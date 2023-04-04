@@ -10,7 +10,7 @@ class FilmsManagerTest {
     Posters film4 = new Posters("Человек-неведимка");
     Posters film5 = new Posters("На краю");
     Posters film6 = new Posters("Номер один");
-    Posters film7 = new Posters("Для теста");
+    Posters film7 = new Posters("Тестовый");
 
     @Test
     public void findLast() {
@@ -121,15 +121,5 @@ class FilmsManagerTest {
         assertArrayEquals(actual, expected);
     }
 
-    @Test
-    void addFilm() {
-    }
 
-    @Test
-    void testFindLast() {
-    }
-
-    @Test
-    void testFindAll() {
-    }
 }
