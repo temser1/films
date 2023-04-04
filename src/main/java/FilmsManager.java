@@ -3,10 +3,12 @@ public class FilmsManager {
     private int limit;
 
     public FilmsManager() {
+
         limit = 10;
     }
 
     public FilmsManager(int limit) {
+
         this.limit = limit;
     }
 
@@ -35,6 +37,7 @@ public class FilmsManager {
     }
 
     public Posters[] findAll() {
+
         return films;
     }
 
