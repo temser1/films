@@ -1,8 +1,4 @@
 public class Main {
-    @Override
-    public String toString() {
-        return "Main{}";
-    }
 
     public static void main(String[] args) {
 
