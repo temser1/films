@@ -30,7 +30,7 @@ public class FilmsManager {
             resultLenght = limit;
         }
         Posters[] tmp = new Posters[resultLenght];
-        for (int i = 0; i < films.length; i++) {
+        for (int i = 0; i < resultLenght; i++) {
             tmp[i] = films[films.length - 1 - i];
         }
         return tmp;
