@@ -7,5 +7,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class Posters {
     private String productName;
+    }
 
-}
