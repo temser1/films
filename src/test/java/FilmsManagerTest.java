@@ -18,7 +18,7 @@ class FilmsManagerTest {
 
     Posters film10 = new Posters("Бумер");
 
-    Posters film11 = new Posters("Мальчишник Вегасе");
+    Posters film11 = new Posters("Мальчишник в Вегасе");
 
     @Test
     public void findLast() {
